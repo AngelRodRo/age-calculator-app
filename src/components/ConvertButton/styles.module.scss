@@ -1,0 +1,30 @@
+@import '../../styles/variables/colors.scss';
+
+.convert-button {
+  max-width: 80px;
+  width: 100%;
+
+  aspect-ratio: 1/1;
+  -webkit-aspect-ratio: 1/1;
+  -moz-aspect-ratio: 1/1;
+
+  border-radius: 100%;
+  background-color: $primary-color;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+
+  &-image {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .convert-button {
+    max-width: 100px;
+  }
+}
