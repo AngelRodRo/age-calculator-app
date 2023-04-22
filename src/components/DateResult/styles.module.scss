@@ -1,0 +1,13 @@
+@import '../../styles/variables/colors.scss';
+
+.date-result {
+  color: black;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 34px;
+
+  &-value {
+    color: $primary-color;
+    margin-right: 5px;
+  }
+}
