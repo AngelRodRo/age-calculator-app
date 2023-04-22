@@ -1,0 +1,67 @@
+@import '../../styles/variables/colors.scss';
+
+.date-input {
+  max-width: 200px;
+  height: 50px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 0 15px;
+  color: #333;
+
+  font-weight: bold;
+  font-size: 18px;
+
+  &-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+
+    &.error {
+      color: $error-color;
+      font-size: 12px;
+    }
+  }
+
+  &-label {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #7F7F7F;
+    letter-spacing: 2px;
+
+    &.error {
+      color: $error-color;
+    }
+  }
+
+  &:focus {
+    border: 2px solid $primary-color;
+  }
+
+  ::placeholder {
+    color: #ccc;
+  }
+
+  &.error,
+  &:focus.error {
+    border: 2px solid $error-color;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .date-input {
+    font-size: 24px;
+
+    &-container {
+      &.error {
+        font-size: 16px;
+      }
+    }
+
+    &-label {
+      font-size: 20px;
+    }
+  }
+}
+  
