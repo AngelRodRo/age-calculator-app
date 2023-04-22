@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "Poppins";
+  font-weight: bold;
+  font-display: swap;
+  src: url("/assets/fonts/Poppins-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-display: swap;
+  src: url("/assets/fonts/Poppins-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-display: swap;
+  src: url("/assets/fonts/Poppins-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-display: swap;
+  src: url("/assets/fonts/Poppins-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+  src: url("/assets/fonts/Poppins-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+  src: url("/assets/fonts/Poppins-BoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+  src: url("/assets/fonts/Poppins-ExtraBoldItalic.ttf") format("truetype");
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+input {
+  all: inherit;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
