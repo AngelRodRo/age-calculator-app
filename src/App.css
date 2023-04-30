@@ -1,0 +1,17 @@
+.app {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-container {
+  background: white;
+  padding: 40px;
+  max-width: 900px;
+
+  border-radius: 25px;
+
+  border-bottom-right-radius: 30%;
+}
