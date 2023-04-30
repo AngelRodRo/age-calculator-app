@@ -5,7 +5,7 @@ type DateType = 'day' | 'month' | 'year';
 
 interface DateResultProps {
   type: DateType;
-  date: number;
+  date: string;
 }
 
 const DateResult: React.FC<DateResultProps> = ({ date, type }) => {
